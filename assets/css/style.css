@@ -734,12 +734,6 @@ label input[type=radio] {
 }
 
 
-#our-special .overlay {
-	position: relative;
-    background-color: #ffffffd2;
-}
-
-
 /*=============================================
     08: Reviews
 ==============================================*/
@@ -888,6 +882,11 @@ label input[type=radio] {
     text-align: left;
     left: -24px;
     top: 270px;
+}
+
+#our-special .content {
+    background-color: #ffffffd2;
+    padding: 20px;
 }
 
 /* 10.2: Blog Pagination */
