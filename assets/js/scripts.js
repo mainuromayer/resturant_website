@@ -156,9 +156,21 @@ We may release future updates so it will overwrite this file. it's better and sa
                 prevEl: '.prev-review',
             },
             breakpoints: {
+                // when window width is <= 1200px
+                1200: {
+                    slidesPerView: 4
+                },                                                          
                 // when window width is <= 991px
                 991: {
-                    slidesPerView: 6
+                    slidesPerView: 3
+                },                                                          
+                // when window width is <= 767px
+                767: {
+                    slidesPerView: 3
+                },
+                // when window width is <= 575px
+                575: {
+                    slidesPerView: 2
                 }
             }
         });

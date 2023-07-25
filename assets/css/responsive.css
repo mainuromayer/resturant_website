@@ -269,7 +269,9 @@
     #our-special .our-special-part-1 {
         border-right: none;
     }
-
+    #reviews h2 {
+        font-size: 22px;
+    }
 }
 
 /* 4. Medium devices (less than  768px) */
@@ -303,6 +305,9 @@
     }
     #our-special .our-special-part-1 {
         border-right: none;
+    }
+    #reviews h2 {
+        font-size: 22px;
     }
 }
 

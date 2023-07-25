@@ -594,6 +594,7 @@ label input[type=radio] {
     right: -999px;
     margin: auto;
     width: 100%;
+    height: 100%;
 }
 .slide-content:before {
     content: '';
@@ -667,48 +668,6 @@ label input[type=radio] {
 	width: 50%;
 	height: 1px;
 	background-color: #60c2a4;
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	align-items: center;
-	left: 90px;
-}
-
-.our-special-part-1 h2,
-.our-special-part-2 .part-1 {
-    position: relative;
-	padding-bottom: 15px;
-	margin-bottom: 10px;
-}
-.our-special-part-1 h2::before,
-.our-special-part-2 .part-1::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	width: 50%;
-	height: 1px;
-	border: 1px dashed #000;
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	align-items: center;
-	left: 90px;
-}
-.our-special-part-1 h1,
-.our-special-part-2 .part-2 {
-    position: relative;
-	padding-bottom: 15px;
-	margin-bottom: 10px;
-    font-style: italic;
-}
-.our-special-part-1 h1::before,
-.our-special-part-2 .part-2::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	width: 50%;
-	height: 1px;
-	border: 1px solid #000;
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -2059,3 +2018,19 @@ a.tip:hover {
     padding: 10px 15px;
 }
 
+
+
+footer .social-icon a {
+	border: 1px solid #ffffff;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+    padding-top: 6px;
+}
+footer .social-icon a:hover {
+    border: 1px solid #605cb8;
+    background-color: #605cb8;
+    width: 30px;
+    height: 30px;
+	color: #fff;
+}
