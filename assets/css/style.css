@@ -594,23 +594,9 @@ label input[type=radio] {
 }
 .single-feature-content h4,
 .our-feature-content h4 {
-	position: relative;
 	padding-bottom: 15px;
 	margin-bottom: 10px;
 	font-weight: 400;
-}
-.our-feature-content h4::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	width: 50%;
-	height: 1px;
-	background-color: #60c2a4;
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	align-items: center;
-	left: 90px;
 }
 
 .text-center .our-feature-content h4:before {

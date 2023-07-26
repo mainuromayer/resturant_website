@@ -59,6 +59,9 @@
 
 /* 3. Large tablets (less than  992px) */
 @media (max-width: 991.98px) {
+    header .header_part-3 {
+        display: none;
+    }
     .main-header .row {
         position: relative;
     }
@@ -90,7 +93,6 @@
         width: auto;
     }
     .header-menu {
-        text-align: right;
         position: initial;
     }
     .header-menu > ul {
